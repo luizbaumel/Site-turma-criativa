@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sem serifa;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.imagem-timbu {
+    width: 12%;
+}
+
+.cabecalho-lista {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.escola-imagem {
+    width: 30%;
+}
+
+.escola {
+    background-image: linear-gradient(black, gray);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div {
+    width: 35%;
+}
+.escola-titulo {
+    padding: 24px 0;
+}
+
+.estudante-imagem {
+    width: 120px;
+    
+}
+
+.estudante-icone {
+    width: 30px;
+    padding: 5px;
+}
+
+.estudante-div {
+    text-align: center;
+}
+
+.estudante-titulo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudente-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape {
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem {
+    height: 60px;
+    padding: 12px 0;
+}
